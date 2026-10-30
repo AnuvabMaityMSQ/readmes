@@ -56,8 +56,6 @@
 `adb shell uiautomator dump /sdcard/window_dump.xml`
 - **Pull the XML file to your local development machine:** 
 `adb pull /sdcard/window_dump.xml ./window_dump.xml`
-- **Format and pretty-print XML for quick reading (using Python or xmllint):** 
-`python3 -c "import xml.dom.minidom; print(xml.dom.minidom.parse('window_dump.xml').toprettyxml())" > formatted_dump.xml`
 
 ### 3.2 System Service State Dumps (`dumpsys`)
 
